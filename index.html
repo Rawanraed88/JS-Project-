@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>Javascript Library</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Rawan Library </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+     
+    </nav>
+
+
+
+
+    <div class="container my-3">
+        <h1>Rawan Library</h1>
+        <hr>
+        <form id="libraryForm">
+            <div class="form-group row">
+                <label for="bookName" class="col-sm-2 col-form-label">Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="title" placeholder=" book title">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Author" class="col-sm-2 col-form-label">Author</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control" id="author" placeholder="book author">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="Author" class="col-sm-2 col-form-label">Image</label>
+                <div class="col-sm-10">
+                    <input type="file" class="form-control" id="image" placeholder="book image">
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-10">
+                    <button type="submit" class="btn btn-primary">Add Book</button>
+                </div>
+        </form>
+        
+            <h1>Your books</h1>
+            <div class="shelves">
+            </div>
+    <script src="JS/main.js"></script>
+
+          
+</body>
+
+</html>
