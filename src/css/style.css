@@ -1,0 +1,83 @@
+html{
+    background-color: rgb(255, 255, 255);
+    min-width: 100%;
+
+}
+.container{
+    text-align: center;
+    width: 90%;
+    margin: 20px auto;
+    padding-left: 30px;
+    background-color: #ffffff ;
+    min-height: 800px;
+}
+.title{
+    margin: 50px auto;
+    padding-top: 15px;
+    color: black;
+    font-size: 30px;
+}
+.form{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+    padding: 30px;
+    height: 30px;
+    margin: auto;
+
+}
+.shelves {
+    margin-top: 14%;
+    display: inline-grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgba(255, 255, 255, 0.64);
+    padding: 30px;
+    width: 85%;
+    min-height: 30%;
+    height: 30%;
+}
+.shelves .book-card{
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 1px;
+    margin: 3px;
+    border-radius: 10px;
+    text-align: center;
+    /*text-after-overflow: ;*/
+
+
+
+}
+.book-image{
+    width: 66%;
+    height:70%;
+}
+h3,h5{
+    margin: 0;
+    padding-bottom: 7px;
+    text-justify: auto;
+}
+.inputs{
+    background-color: white;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+#image{
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+#submit{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    width: 20%;
+    font-size: 18px;
+}
+
+
